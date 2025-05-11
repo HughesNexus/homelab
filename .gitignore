@@ -1,0 +1,13 @@
+# Ignore Docker volumes, logs, and env files
+*.log
+*.env
+.env
+docker-compose.override.yml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore any IDE/editor-specific settings
+.vscode/
+.idea/
